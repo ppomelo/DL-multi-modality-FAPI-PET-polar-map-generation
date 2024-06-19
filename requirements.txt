@@ -1,0 +1,14 @@
+numpy
+SimpleITK
+scikit-image
+nibabel
+matplotlib
+torch
+tqdm
+scipy
+opencv-python
+batchgenerators
+nilearn
+joblib
+transforms3d
+scikit-learn
