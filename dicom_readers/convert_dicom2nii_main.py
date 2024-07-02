@@ -45,7 +45,7 @@ def patient_save_PET(root_path):
 
         PET_dicom_path = os.path.join(dicom_PET_path, PET_dir[0])
 
-        PET_dicom_path = dicom_PET_path
+        # PET_dicom_path = dicom_PET_path
 
         img_PET = dicoms_reader(PET_dicom_path)
 
