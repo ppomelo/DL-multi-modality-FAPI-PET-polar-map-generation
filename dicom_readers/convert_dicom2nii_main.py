@@ -92,7 +92,7 @@ def patient_save_PET_transfer(root_path):
             # continue
 
         PET_dicom_path = os.path.join(dicom_PET_path, PET_dir[0])
-        PET_dicom_path = dicom_PET_path
+        # PET_dicom_path = dicom_PET_path -- depends on your file structure
         img_PET = dicoms_reader_transfer(PET_dicom_path)
         PET_nii_save_path = os.path.join(patient_origin_path, 'data_nii', 'PET_origin.nii')
 
