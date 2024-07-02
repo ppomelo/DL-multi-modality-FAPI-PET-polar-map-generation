@@ -109,3 +109,7 @@ dataset/
 ├── patient002/
 │   ├── ...
 ```
+## Trained Weights
+
+Our trained model weights have been uploaded to OneDrive:
+https://1drv.ms/f/s!Av73VuhJIDgopG0n5FCXYvu466pC?e=NpJEI5
