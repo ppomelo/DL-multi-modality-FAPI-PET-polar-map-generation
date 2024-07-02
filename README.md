@@ -113,3 +113,7 @@ dataset/
 
 Our trained model weights have been uploaded to OneDrive:
 https://1drv.ms/f/s!Av73VuhJIDgopG0n5FCXYvu466pC?e=NpJEI5
+
+Segmentation model weights: network_seg.pth
+
+Reorientation model weights: network_seg_angles.pth for rotation parameters prediction; network_seg_translation.pth for translation parameters prediction
