@@ -73,14 +73,6 @@ python postprocessing.py --prediction_folder <./predictions>
 
 Post-process segmentation results, including 3D largest connected component filtering and 2D morphological closing operations. The processed label files will be saved in the ./predictions folder.
 
-## 17-Segment Polar Map Generation
-
-```
-python PET_PM_main.py --prediction_folder <data_path> --save_PolarMap_path <./PET_PolarMaps>
-```
-
-Generate Polar Maps. The inputs are predicted results: ./predictions/patient001/patient001_predicted_labels.nii and patient001/patient001_predict_PET.nii. Outputs are the generated Polar Maps for each patient which are saved in folder ./PET_PolarMaps.
-
 ## Dataset Structure
 
 The train/val/test dataset folder structure is as follows:
@@ -100,8 +92,8 @@ dataset/
 │   │   ├── MRI_trans.nii #trans-axial view
 │   │   ├── PET_trans.nii #trans-axial view
 │   │   ├── SS_SAX_001.nii #segmentation
-│   │   ├── Angles.npy #angle
-│   │   ├── Tdash.npy #translation
+│   │   ├── Angles.npy #angle adjust according to your own datasets
+│   │   ├── Tdash.npy #translation adjust according to your own datasets
 │   │   ├── ...
 │   └── raw_dicom/
 │       ├── PET_dicom/
