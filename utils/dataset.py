@@ -66,6 +66,7 @@ class PairedDataset(Dataset):
         out['angles'] = np.array(np.load(os.path.join(patient_origin_path, 'data_train_SS', 'Angles.npy')), dtype='float32')
         out['Tdash'] = np.array(np.load(os.path.join(patient_origin_path, 'data_train_SS', 'Tdash.npy')), dtype='float32')
 
+        # adjust according to your own dataset
         # # show_slice(PET_in_array,slice_index=50)
         # PET_in_array = normalize_image(PET_in_array)
         # # show_slice(PET_in_array,slice_index=60)
