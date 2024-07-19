@@ -111,4 +111,4 @@ Segmentation model weights: network_seg.pth
 Reorientation model weights: network_seg_angles.pth for rotation parameters prediction; network_seg_translation.pth for translation parameters prediction
 
 ## Citations
-To be continued
+To be continued...
